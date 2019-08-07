@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 481px;
+    height: 392px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+#form {
+    background: #F7F5F9;
+    border-radius: 12px;
+    width: 481px;
+    height: 392px;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#input__FIO, #input__PHONE, #input__EMAIL {
+    width: 401px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    margin-left: 40px;
+    margin-top: 24px;
+    text-indent: 15px;
+    font-size: 15px;
+    outline: none;
+}
+#input__FIO::placeholder , #input__PHONE::placeholder , #input__EMAIL::placeholder  {
+    color: #D0C9D6;
+}
+
+#input__FIO:focus , #input__PHONE:focus , #input__EMAIL:focus {
+    border: 1px solid #854FC8;
+    border-radius: 6px;
+}
+
+#input__BTN {
+    outline: none;
+    width: 401px;
+    height: 48px;
+    background: #6979F8;
+    border-radius: 6px;
+    margin-left: 40px;
+    margin-top: 22px;
+    color: #fff;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#input__BTN:hover {
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+    background: #4568f8;
+}
+
+#label {
+    margin-top: 40px;
+    margin-left: 40px;
+    left: 40%;
+    display: block;
+    font-size: 24px;
+    color: #3B3D43;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+}
